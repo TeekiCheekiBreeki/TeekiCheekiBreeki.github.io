@@ -10,8 +10,13 @@ let pwd = false;
 var commands = [];
 
 setTimeout(function() {
-  loopLines(banner, "", 80);
-  textarea.focus();
+  var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+  if (screenWidth <= 767) {
+    loopLines(smallerBanner, "", 80);
+  } else {
+    loopLines(banner, "", 80);
+  }
 }, 100);
 
 window.addEventListener("keyup", enterKey);

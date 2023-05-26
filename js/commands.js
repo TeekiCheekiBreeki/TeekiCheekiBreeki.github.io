@@ -21,6 +21,7 @@ whois = [
         "- JavaScript",
         "- Docker",
         "- SQL",
+        "",
         "I'm also interested in learning new languages and technologies.",
         "I'm currently learning Python, how to use Unity ",
         "Blender.",
@@ -68,7 +69,7 @@ help = [
   '<span class="command">secret</span>         Find the password',
   '<span class="command">projects</span>       View coding projects',
   '<span class="command">history</span>        View command history',
-  '<span class="command">help</span>           You obviously already know what this does',
+  '<span class="command">help</span>           Displays list of commands',
   '<span class="command">email</span>          Do not email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
@@ -76,7 +77,7 @@ help = [
 ];
 
 banner = [
-    '<span class="index">ForrestKnight (FK) Not A Corporation. All knights reserved.</span>',
+    '<span class="index">Personal Portfolio terminal. @TianGrumerec</span>',
     '___________.__                  ________                                                 ',
     '\\__    ___/|__|____    ____    /  _____/______ __ __  _____   ___________   ____   ____  ',
     '  |    |   |  \\__  \\  /    \\  /   \\  __\\_  __ \\  |  \\/     \\_/ __ \\_  __ \\/ __ \\_/ ___\\ ',
@@ -86,4 +87,17 @@ banner = [
     '<span class="color2">Welcome to my interactive web terminal.</span>',
     '<span class="color2">For a list of available commands, type</span> <span class="command">\'help\'</span><span class="color2">.</span>',
   ]
+
+  var smallerBanner = [
+    '<span class="index">Personal Portfolio terminal. @TianGrumerec</span>',
+    '',
+    '    ___________________ ',
+    '    \\__    ___/  _____/ ',
+    '      |    | /   \\  ___ ',
+    '      |    | \\    \\_\\  \\',
+    '      |____|  \\______  /',
+    '                     \\/ ',
+    '<span class="color2">Welcome to my web terminal | portfolio.</span>',
+    '<span class="color2">For a list of commands, type</span> <span class="command">\'help\'</span><span class="color2">.</span>',
+  ];
   

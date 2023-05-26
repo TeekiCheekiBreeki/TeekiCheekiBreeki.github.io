@@ -1,9 +1,7 @@
 body {
   margin: 0;
-  padding: 15px 20px;
-  min-height: 99%;
-  width: 100%;
-  min-width: 320px;
+  padding: 15px;
+  min-height: 100vh;
   color: #519975;
   background: #211D1B;
   font-family: cursor, monospace;
@@ -131,8 +129,23 @@ a:focus {
   outline: 0;
 }
 
+
 @media screen and (max-width: 767px) {
   body {
-    padding: 10px; /* Adjust the padding for smaller screens */
+    padding: 10px;
+  }
+
+  #liner::before {
+    content: "visitor@fkcodes.com:";
+  }
+
+  #liner.password::before {
+    content: "Pass:";
+  }
+
+  p {
+    white-space: normal;
+    overflow: visible;
+    animation: none;
   }
 }
